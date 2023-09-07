@@ -1,3 +1,46 @@
+*~$*
+tmp*
+*_examples*
+*cache*
+
+# gradio tmp
+gradio/
+
+# node
+node_modules
+package-lock.json
+
+# ctags
+tags*
+
+# aider
+.aider*
+
+# key
+key.yaml
+
+# chroma
+.chroma
+
+# mermaid
+*.mmd
+
+# _log
+bioelectronica/_log/*
+!bioelectronica/_log/.gitkeep
+
+# _server_dumps
+bioelectronica/_server_dumps/*
+!bioelectronica/_server_dumps/.gitkeep
+
+# _workspace
+bioelectronica/_workspace/*
+!bioelectronica/_workspace/.gitkeep
+# _workspace/_normdata
+!bioelectronica/_workspace/_normdata
+bioelectronica/_workspace/_normdata/*
+!bioelectronica/_workspace/_normdata/.gitkeep
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
